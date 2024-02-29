@@ -1,0 +1,10 @@
+[report]
+omit =
+    test/*
+    __init__.py
+    code/behavior_tree/*
+    */dist-packages/*
+
+exclude_lines =
+    @abstractmethod
+    @abc.abstractmethod
